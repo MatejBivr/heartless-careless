@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'ProximaNova';
+  // src: url('~assets/fonts/ProximaNova-Alt-Black-webfont.eot');
+  src: url('./fonts/ProximaNova-Alt-Black-webfont.woff2') format('woff2'),
+    url('~assets/fonts/ProximaNova-Alt-Black-webfont.woff') format('woff'),
+    url('~assets/fonts/ProximaNova-Alt-Black-webfont.ttf') format('truetype'),
+    url('~assets/fonts/ProximaNova-Alt-Black-webfont.svg#proxima_nova_altblack')
+      format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('fonts/ProximaNova-Alt-Bold-webfont.eot');
+  src: url('fonts/ProximaNova-Alt-Bold-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/ProximaNova-Alt-Bold-webfont.woff2') format('woff2'),
+    url('fonts/ProximaNova-Alt-Bold-webfont.woff') format('woff'),
+    url('fonts/ProximaNova-Alt-Bold-webfont.ttf') format('truetype'),
+    url('fonts/ProximaNova-Alt-Bold-webfont.svg#proxima_nova_altbold')
+      format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('fonts/ProximaNova-Alt-Regular-webfont.eot');
+  src: url('fonts/ProximaNova-Alt-Regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/ProximaNova-Alt-Regular-webfont.woff') format('woff'),
+    url('fonts/ProximaNova-Alt-Regular-webfont.ttf') format('truetype'),
+    url('fonts/ProximaNova-Alt-Regular-webfont.svg#proxima_nova_altregular')
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('fonts/ProximaNova-ScOsf-Thin-webfont.eot');
+  src: url('fonts/ProximaNova-ScOsf-Thin-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/ProximaNova-ScOsf-Thin-webfont.woff') format('woff'),
+    url('fonts/ProximaNova-ScOsf-Thin-webfont.ttf') format('truetype'),
+    url('fonts/ProximaNova-ScOsf-Thin-webfont.svg#proxima_nova_scosfthin')
+      format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('fonts/ProximaNova-Semibold-webfont.eot');
+  src: url('fonts/ProximaNova-Semibold-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/ProximaNova-Semibold-webfont.woff2') format('woff2'),
+    url('fonts/ProximaNova-Semibold-webfont.ttf') format('truetype'),
+    url('fonts/ProximaNova-Semibold-webfont.svg#proxima_nova_ltsemibold')
+      format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('fonts/ProximaNova-Thin-webfont.eot');
+  src: url('fonts/ProximaNova-Thin-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/ProximaNova-Thin-webfont.woff2') format('woff2'),
+    url('fonts/ProximaNova-Thin-webfont.woff') format('woff'),
+    url('fonts/ProximaNova-Thin-webfont.ttf') format('truetype'),
+    url('fonts/ProximaNova-Thin-webfont.svg#proxima_nova_ltthin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'newsflash_bb';
+  src: url('~assets/fonts/newsflashbb-webfont.woff2') format('woff2'),
+    url('~assets/fonts/newsflashbb-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mr_dafoe';
+  src: url('~assets/fonts/mrdafoe-regular-webfont.woff2') format('woff2'),
+    url('~assets/fonts/mrdafoe-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
