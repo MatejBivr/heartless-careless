@@ -2,3 +2,47 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
+
+$body-font-family: 'ProximaNova', sans-serif;
+$heading-font-family: 'newsflash_bb';
+// $headings: (
+//   'h1': (
+//     'size': 3.3125rem,
+//     'line-height': 1.15em,
+//     'font-family': 'newsflash_bb',
+//   ),
+// );
+
+// @import './fonts.scss';
+$material-dark: (
+  'app-bar': #1b222e,
+  'background': #e6e9f0,
+  'surface': #e6e9f0,
+  'bottom-navigation': #1b222e,
+  // 'dividers': #fcbc0d,
+  'text':
+    (
+      'theme': #fcbc0d,
+      'primary': #fff,
+      'secondary': #707070,
+      'disabled': #7e7e7e,
+      'link': #fcbc0d,
+      'link-hover': #fcc225,
+    ),
+  'toggle-buttons': (
+    'color': #fcbc0d,
+  ),
+  'icons': (
+    'active': #fcbc0d,
+    'inactive': #fcbc0d,
+  ),
+  // 'buttons': (
+  //   'disabled': rgba(map-get($shades, 'white'), 0.3),
+  //   'focused': rgba(map-get($shades, 'white'), 0.12),
+  //   'focused-alt': rgba(map-get($shades, 'white'), 0.1),
+  //   'pressed': rgba(#ccc, 0.25),
+  // ),
+  'navigation-drawer': #1b222e,
+  'fg-color': #707070,
+  'text-color': #707070,
+);
