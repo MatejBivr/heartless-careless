@@ -1,5 +1,3 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -49,23 +47,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     treeShake: true,
-    options: {
-      customProperties: true,
-    },
-    theme: {
-      dark: true,
-      themes: {
-        dark: {
-          primary: '#fcbc0d',
-          accent: '#FFF',
-          secondary: '#707070',
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3,
-        },
-      },
-    },
+    optionsPath: './vuetify.options.js',
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

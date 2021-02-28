@@ -23,7 +23,7 @@ $material-dark: (
   'text':
     (
       'theme': #fcbc0d,
-      'primary': #fff,
+      'primary': #e8ebf1,
       'secondary': #707070,
       'disabled': #7e7e7e,
       'link': #fcbc0d,
@@ -45,4 +45,5 @@ $material-dark: (
   'navigation-drawer': #1b222e,
   'fg-color': #707070,
   'text-color': #707070,
+  'navigation-drawer-mobile-temporary-elevation': 70,
 );
