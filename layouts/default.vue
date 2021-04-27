@@ -6,19 +6,19 @@
         <nuxt />
       </v-container>
     </v-main>
-    <v-footer :absolute="!fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
+    <TheFooter />
   </v-app>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import TheMenu from '~/components/TheMenu.vue'
+import TheFooter from '~/components/TheFooter.vue'
 export default Vue.extend({
   name: 'Default',
   components: {
     TheMenu,
+    TheFooter,
   },
 })
 </script>

@@ -163,7 +163,7 @@ export default Vue.extend({
     line-height: 1.4;
     color: map-get($material-dark, text, theme);
     position: relative;
-    padding: 0;
+    padding: 0 !important;
     text-align: center;
     width: 100%;
   }
@@ -172,6 +172,7 @@ export default Vue.extend({
       width: unset;
       flex-basis: 90px;
       font-size: 40px;
+      padding: 0 !important;
     }
   }
   @media #{map-get($display-breakpoints, 'lg-and-up')} {
